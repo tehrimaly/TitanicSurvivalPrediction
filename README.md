@@ -8,12 +8,10 @@ The model is trained using historical passenger data and classifies survival as:
 - 0 → Did not survive  
 <img width="2688" height="1886" alt="image" src="https://github.com/user-attachments/assets/a4e0bc9d-e26c-4089-bbbf-e51ef15f5d01" />
 
----
 
 ##  Objective
 To build a binary classification model that predicts passenger survival using supervised learning techniques.
 
----
 
 ##  Dataset
 The dataset used is the famous Titanic dataset from Kaggle:
@@ -29,7 +27,6 @@ Features used:
 Target:
 - Survived
 
----
 
 ## Technologies Used
 - Python
@@ -38,13 +35,11 @@ Target:
 - Scikit-learn
 - Matplotlib
 
----
 
 ##  Machine Learning Model
 - Random Forest Classifier
 - Supervised Learning (Classification)
 
----
 
 ##  Data Preprocessing
 - Handled missing values in Age and Embarked
@@ -52,7 +47,6 @@ Target:
 - Selected relevant features
 - Train-test split applied
 
----
 
 ## Workflow
 1. Load dataset
@@ -63,7 +57,6 @@ Target:
 6. Evaluate performance
 7. Predict survival outcomes
 
----
 
 ##  Model Evaluation
 The model is evaluated using:
@@ -73,12 +66,9 @@ The model is evaluated using:
 
 Expected accuracy: ~80–85%
 
----
 
 ##  Results
 The model successfully predicts passenger survival with good accuracy and demonstrates the importance of gender and passenger class in survival chances.
-
----
 
 ##  Future Improvements
 - Hyperparameter tuning
@@ -86,7 +76,3 @@ The model successfully predicts passenger survival with good accuracy and demons
 - Using XGBoost or Gradient Boosting
 - Deployment using Flask or Streamlit
 
----
-
-## 👨‍💻 Author
-Student Project – Machine Learning Assignment
